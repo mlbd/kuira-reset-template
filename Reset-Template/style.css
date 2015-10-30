@@ -1,0 +1,61 @@
+/*
+Theme Name: Language Insight
+Theme URI: http://demo-projects.link/li/
+Author: pixiefy team
+Author URI: http://pixiefy.com/
+Description: Make the world a smaller place with Language Insight.
+Version: 1.0
+*/
+
+/*--------------------------------------------------------------
+  Typography
+--------------------------------------------------------------*/
+body {
+  color: #373737;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  line-height: 1.6; 
+  -webkit-font-smoothing: antialiased;
+}
+iframe{
+    border: none;
+}
+a, b, div, ul, li{
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  -webkit-tap-highlight-color: transparent; 
+  -moz-outline-: none;
+}
+a:focus,
+a:active{
+  -moz-outline: none;
+  outline: none;
+}
+img:not([draggable]), embed, object, video{
+    max-width: 100%;
+    height: auto;
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+    outline: 0
+}
+img {
+    border: none;
+    max-width: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'dinbold', arial, sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+  Header Section
+--------------------------------------------------------------*/
